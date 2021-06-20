@@ -1,7 +1,7 @@
 José Eduardo Alonso -> 
 <https://www.linkedin.com/in/alonso-je/>
 
-# back-end
+# BACK-END
 
 ## Sobre o projeto
 
@@ -38,9 +38,9 @@ git clone https://github.com/AlonsoJE/avaliacao-back-end.git
 create tadabase atendimentodata;
 ```
 
-# frond-end
+# FRONT-END
 
-# Sobre o projeto
+## Sobre o projeto
 
 Um projeto Vue.js, se tratando de uma single page application que realiza o consumo e utilização dos recursos disponibilizados por uma API REST em java.
 
