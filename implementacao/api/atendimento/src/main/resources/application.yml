@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: atendimento
+  datasource:
+    url: "jdbc:mysql://localhost:3306/atendimentodata?useTimezone=true&serverTimezone=America/Sao_Paulo"
+    username: "root"
+    password: "root"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      test-while-idle: true
+      validation-query: SELECT 1
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+server:
+  port: 8090
+
+logging:
+  level.: INFO
+  level:
+    org.hibernate.type: INFO
+  file:
+    name: /atendimento.log
+
+var:
+  viacep: "https://viacep.com.br/ws/"
