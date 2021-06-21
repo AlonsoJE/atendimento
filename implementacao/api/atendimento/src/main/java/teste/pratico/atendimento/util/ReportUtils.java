@@ -21,7 +21,7 @@ public class ReportUtils {
 
         JRBeanCollectionDataSource collection = new JRBeanCollectionDataSource(list);
 
-        String pathReport = String.format("/%s.jasper", report);
+        String pathReport = String.format("src/main/resources/reports/%s.jasper", report);
 
         InputStream jasperTemplate = new FileInputStream(pathReport);
 

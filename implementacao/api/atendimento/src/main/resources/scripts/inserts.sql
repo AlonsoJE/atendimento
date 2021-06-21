@@ -14,3 +14,10 @@ INSERT INTO paciente () VALUES
 INSERT INTO posto_coleta () VALUES
 (0, "Laboratório Central", "Rua Coronel Militão", "70"),
 (0, "Centro de Especialidades Teste", "Rua 7 de setembro", "17");
+
+INSERT INTO exame () VALUES
+(0, "COVID-19", "120.00", 2),
+(0, "Colesterol", "60.00", 5),
+(0, "Dengue", "80.00", 8),
+(0, "Diabetes", "20", 1);
+

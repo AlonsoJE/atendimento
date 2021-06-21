@@ -40,7 +40,7 @@ public class PacienteEntity  {
     }
 
     public void setNome(String nome) {
-        RegexCenter.verifyName(nome);
+//        RegexCenter.verifyName(nome);
         this.nome = nome;
     }
 
