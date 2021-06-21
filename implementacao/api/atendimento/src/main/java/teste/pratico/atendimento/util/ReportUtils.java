@@ -27,6 +27,7 @@ public class ReportUtils {
 
         Map<String, Object> parametros = new HashMap<String, Object>();
         parametros.put("REPORT_LOCALE", new Locale("pt", "BR"));
+        parametros.put("SUB_REPORT", "src/main/resources/reports/subReport.jasper");
 
         JasperPrint jp = JasperFillManager.fillReport(jasperTemplate ,parametros, collection);
 
