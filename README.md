@@ -31,8 +31,8 @@ git clone https://github.com/AlonsoJE/avaliacao-back-end.git
 # antes de executar o projeto
   script em  resources\scripts\inserts.sql
 
-# executar o arquivo docker-compose 
- script em /stack.yml
+# executar o arquivo  stack.yml que esta na raiz do projeto
+docker-compose -f stack.yml up
  
 # caso prefira não utilizar o docker, basta criar um database atendimentodata e utilizar o mesmo script sql fornecido para popular as tabelas
 create tadabase atendimentodata;
