@@ -79,3 +79,7 @@ npm run electron:serve
 # build em electron
 npm run electron:build
 ```
+
+## Documentation
+
+A pasta possui arquivos que possam ser necessários e também contará com os arquivos do postman utilizados no decorrer do desenvolvimento
